@@ -1,0 +1,20 @@
+[project]
+name = "rag-pdf"
+version = "0.1.0"
+description = "teste de rag"
+authors = [
+    {name = "RafaelAbath",email = "rafael.abath.274@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.12.3"
+dependencies = [
+    "streamlit (>=1.43.2,<2.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "langchain (>=0.3.21,<0.4.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
