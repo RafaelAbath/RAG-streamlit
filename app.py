@@ -10,7 +10,7 @@ def main():
         st.subheader("seus arquivosr")
         pdf_loader = st.file_uploader("Carregar PDF", type=["pdf"], accept_multiple_files=True)
         print(pdf_loader)
-        if st.button("carregar"):
+        if st.button("Processar"):
             processar = files.process_files(pdf_loader)
             print(processar)
         
