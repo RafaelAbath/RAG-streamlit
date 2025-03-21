@@ -1,5 +1,5 @@
 import streamlit as st
-from PyPDF2 import PdfReader
+from utils import files
 
 def main():
     st.title("RAG Chatbot")
@@ -11,8 +11,8 @@ def main():
         pdf_loader = st.file_uploader("Carregar PDF", type=["pdf"], accept_multiple_files=True)
         print(pdf_loader)
         if st.button("carregar"):
-            pass
-    
+            processar = files.process_files(pdf_loader)
+            print(processar)
         
 if __name__ == "__main__":
     main()
