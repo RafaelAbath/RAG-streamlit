@@ -15,5 +15,5 @@ def split_text_chunks(text):
         chunk_overlap=300,
         length_function=len,
     )
-    chunks = chunks_splitter.split(text)
+    chunks = chunks_splitter.split_text(text)
     return chunks
