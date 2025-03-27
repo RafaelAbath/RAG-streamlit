@@ -6,7 +6,7 @@ authors = [
     {name = "RafaelAbath",email = "rafael.abath.274@gmail.com"}
 ]
 readme = "README.md"
-requires-python = "3.12.9"
+requires-python = "3.12.3"
 dependencies = [
     "streamlit (>=1.43.2,<2.0.0)",
     "python-dotenv (>=1.0.1,<2.0.0)",
