@@ -1,0 +1,73 @@
+/* Aplica tema escuro ao corpo da página */
+body, .main .block-container {
+    background-color: #181818 !important;  /* Fundo escuro */
+    color: #ffffff !important;  /* Texto branco */
+}
+
+/* Barra lateral */
+.sidebar .sidebar-content {
+    background-color: #111111 !important;  /* Fundo escuro */
+    color: #ffffff !important;  /* Texto branco */
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, .sidebar .sidebar-header {
+    color: #ffffff !important;  /* Texto branco */
+}
+
+/* Estilos de inputs e botões */
+input, textarea, .stTextInput>div>input, .stButton>button {
+    background-color: #333333 !important;  /* Fundo escuro */
+    color: #ffffff !important;  /* Texto branco */
+    border: 1px solid #444444 !important;  /* Borda suave */
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #777777 !important;  /* Borda ao focar */
+}
+
+/* Efeitos de hover nos botões */
+.stButton>button:hover {
+    background-color: #444444 !important;
+}
+
+/* Estilo para file uploader */
+.stFileUploader>div {
+    background-color: #333333 !important;  /* Fundo escuro */
+    border: 1px solid #444444 !important;  /* Borda suave */
+    color: #ffffff !important;  /* Texto branco */
+}
+
+/* Estilo de mensagens de chat */
+.stChatMessage {
+    background-color: #333333 !important;  /* Fundo escuro */
+    color: #ffffff !important;  /* Texto branco */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Estilo do título da barra lateral */
+.sidebar .sidebar-header {
+    background-color: #222222 !important;  /* Fundo escuro */
+    color: #ffffff !important;  /* Texto branco */
+}
+
+/* Aplica o fundo escuro nos componentes de texto, incluindo as mensagens de chat */
+.stTextInput, .stMarkdown, .stRadio, .stSelectbox {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+.stMain{
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+.stSidebar{
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}.stAppHeader{
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+.stSidebarUserContent{
+    background-color: #333333 !important;
+    color: #ffffff !important;}
