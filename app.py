@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import text
+from utils import split
 
 def main():
     st.set_page_config(
@@ -9,12 +9,13 @@ def main():
     
     
     with st.sidebar:
-        st.subheader("seus arquivosr")
+        st.subheader("seus arquivos")
         pdf_loader = st.file_uploader("Carregar PDF", type=["pdf"], accept_multiple_files=True)
         print(pdf_loader)
         if st.button("Processar"):
-            processar = text.process_files(pdf_loader)
-            print(processar)
+            processados = split.process_files(pdf_loader)
+            print(processados)
+            chunks = split.split_text_chunks(processados)
         
 if __name__ == "__main__":
     main()
